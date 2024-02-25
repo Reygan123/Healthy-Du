@@ -1,0 +1,42 @@
+@font-face {
+  font-family: nunito;
+  src: url(./assets/fonts/NUNITO-VARIABLEFONT_WGHT.TTF);
+}
+
+div{
+  font-family: nunito;
+}
+
+.toast {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.toast-success {
+  background-color: #4caf50;
+}
+
+.toast-error {
+  background-color: #f44336;
+}
+
+.toast-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.toast-description {
+  margin-bottom: 0;
+}
+
